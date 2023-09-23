@@ -1,0 +1,8 @@
+gspread
+pandas
+gsheetsdb
+streamlit
+json
+psycopg2
+time
+google.oauth2
