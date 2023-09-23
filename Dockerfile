@@ -10,7 +10,10 @@ COPY credentials_gs.json /app/credentials_gs.json
 COPY credentials_db.json /app/credentials_db.json
 COPY crontab /etc/cron.d/crontab
 
-# Зависимости вашего приложения
+# Установка cron
+RUN apt-get update && apt-get -y install cron
+
+# Зависимости приложения
 RUN pip install -r requirements.txt
 
 # Запускать ваше приложение внутри контейнера с помощью cron раз в день
