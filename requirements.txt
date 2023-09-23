@@ -1,7 +1,6 @@
 gspread
 pandas
 gsheetsdb
-json
 psycopg2
 time
 google.oauth2
