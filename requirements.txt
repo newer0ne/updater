@@ -2,5 +2,4 @@ gspread
 pandas
 gsheetsdb
 psycopg2
-time
 google.oauth2
